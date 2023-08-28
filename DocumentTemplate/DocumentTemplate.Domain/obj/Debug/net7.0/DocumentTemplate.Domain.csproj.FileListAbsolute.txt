@@ -1,0 +1,11 @@
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Domain/bin/Debug/net7.0/DocumentTemplate.Domain.deps.json
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Domain/bin/Debug/net7.0/DocumentTemplate.Domain.dll
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Domain/bin/Debug/net7.0/DocumentTemplate.Domain.pdb
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Domain/obj/Debug/net7.0/DocumentTemplate.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Domain/obj/Debug/net7.0/DocumentTemplate.Domain.AssemblyInfoInputs.cache
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Domain/obj/Debug/net7.0/DocumentTemplate.Domain.AssemblyInfo.cs
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Domain/obj/Debug/net7.0/DocumentTemplate.Domain.csproj.CoreCompileInputs.cache
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Domain/obj/Debug/net7.0/DocumentTemplate.Domain.dll
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Domain/obj/Debug/net7.0/refint/DocumentTemplate.Domain.dll
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Domain/obj/Debug/net7.0/DocumentTemplate.Domain.pdb
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Domain/obj/Debug/net7.0/ref/DocumentTemplate.Domain.dll

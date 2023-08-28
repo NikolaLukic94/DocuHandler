@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "2lAnA0GGVSm9VfAvYyLGcUCZTpVb6S2T9Q7PGVDmYhf5KBK+mG5OBXD27qXqPERM+7Vd7yl8i4va3y2G61Q4uQ==",
+  "success": true,
+  "projectFilePath": "/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Application/DocumentTemplate.Application.csproj",
+  "expectedPackageFiles": [
+    "/home/nikola/.nuget/packages/erroror/1.2.1/erroror.1.2.1.nupkg.sha512",
+    "/home/nikola/.nuget/packages/mediatr/12.1.1/mediatr.12.1.1.nupkg.sha512",
+    "/home/nikola/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/home/nikola/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,11 @@
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Contracts/bin/Debug/net7.0/DocumentTemplate.Contracts.deps.json
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Contracts/bin/Debug/net7.0/DocumentTemplate.Contracts.dll
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Contracts/bin/Debug/net7.0/DocumentTemplate.Contracts.pdb
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Contracts/obj/Debug/net7.0/DocumentTemplate.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Contracts/obj/Debug/net7.0/DocumentTemplate.Contracts.AssemblyInfoInputs.cache
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Contracts/obj/Debug/net7.0/DocumentTemplate.Contracts.AssemblyInfo.cs
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Contracts/obj/Debug/net7.0/DocumentTemplate.Contracts.csproj.CoreCompileInputs.cache
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Contracts/obj/Debug/net7.0/DocumentTemplate.Contracts.dll
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Contracts/obj/Debug/net7.0/refint/DocumentTemplate.Contracts.dll
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Contracts/obj/Debug/net7.0/DocumentTemplate.Contracts.pdb
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Contracts/obj/Debug/net7.0/ref/DocumentTemplate.Contracts.dll

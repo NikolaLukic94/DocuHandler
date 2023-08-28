@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Dt1DOT14tkov/VuqIv4xEhpzkbnz1Z3xS7SHqdoh/RmCHhc2uPSAhQ2q4VWFA/4URen0+xom3YDgXavZxI1NAA==",
+  "success": true,
+  "projectFilePath": "/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Domain/DocumentTemplate.Domain.csproj",
+  "expectedPackageFiles": [
+    "/home/nikola/.nuget/packages/erroror/1.2.1/erroror.1.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}

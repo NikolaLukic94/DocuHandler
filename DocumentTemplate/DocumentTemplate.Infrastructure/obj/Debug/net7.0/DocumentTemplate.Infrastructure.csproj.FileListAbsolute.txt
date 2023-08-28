@@ -1,0 +1,17 @@
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Infrastructure/bin/Debug/net7.0/DocumentTemplate.Infrastructure.deps.json
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Infrastructure/bin/Debug/net7.0/DocumentTemplate.Infrastructure.dll
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Infrastructure/bin/Debug/net7.0/DocumentTemplate.Infrastructure.pdb
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Infrastructure/obj/Debug/net7.0/DocumentTemplate.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Infrastructure/obj/Debug/net7.0/DocumentTemplate.Infrastructure.AssemblyInfoInputs.cache
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Infrastructure/obj/Debug/net7.0/DocumentTemplate.Infrastructure.AssemblyInfo.cs
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Infrastructure/obj/Debug/net7.0/DocumentTemplate.Infrastructure.csproj.CoreCompileInputs.cache
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Infrastructure/obj/Debug/net7.0/DocumentTemplate.Infrastructure.dll
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Infrastructure/obj/Debug/net7.0/refint/DocumentTemplate.Infrastructure.dll
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Infrastructure/obj/Debug/net7.0/DocumentTemplate.Infrastructure.pdb
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Infrastructure/obj/Debug/net7.0/ref/DocumentTemplate.Infrastructure.dll
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Infrastructure/bin/Debug/net7.0/DocumentTemplate.Application.dll
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Infrastructure/bin/Debug/net7.0/DocumentTemplate.Domain.dll
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Infrastructure/bin/Debug/net7.0/DocumentTemplate.Application.pdb
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Infrastructure/bin/Debug/net7.0/DocumentTemplate.Domain.pdb
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Infrastructure/obj/Debug/net7.0/DocumentTemplate.Infrastructure.csproj.AssemblyReference.cache
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Infrastructure/obj/Debug/net7.0/DocumentTemplate.Infrastructure.csproj.CopyComplete

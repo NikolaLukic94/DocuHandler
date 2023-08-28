@@ -1,0 +1,199 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Infrastructure/DocumentTemplate.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Application/DocumentTemplate.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Application/DocumentTemplate.Application.csproj",
+        "projectName": "DocumentTemplate.Application",
+        "projectPath": "/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Application/DocumentTemplate.Application.csproj",
+        "packagesPath": "/home/nikola/.nuget/packages/",
+        "outputPath": "/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nikola/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Domain/DocumentTemplate.Domain.csproj": {
+                "projectPath": "/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Domain/DocumentTemplate.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Domain/DocumentTemplate.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Domain/DocumentTemplate.Domain.csproj",
+        "projectName": "DocumentTemplate.Domain",
+        "projectPath": "/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Domain/DocumentTemplate.Domain.csproj",
+        "packagesPath": "/home/nikola/.nuget/packages/",
+        "outputPath": "/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nikola/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Infrastructure/DocumentTemplate.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Infrastructure/DocumentTemplate.Infrastructure.csproj",
+        "projectName": "DocumentTemplate.Infrastructure",
+        "projectPath": "/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Infrastructure/DocumentTemplate.Infrastructure.csproj",
+        "packagesPath": "/home/nikola/.nuget/packages/",
+        "outputPath": "/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nikola/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Application/DocumentTemplate.Application.csproj": {
+                "projectPath": "/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Application/DocumentTemplate.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.32.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

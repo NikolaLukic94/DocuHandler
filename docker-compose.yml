@@ -1,0 +1,10 @@
+version: '3'
+services:
+  vue-app:
+    container_name: vue-app
+    build:
+      context: ./doc-vue3-project
+      dockerfile: Dockerfile
+    ports:
+      - '8080:80'
+    restart: always
