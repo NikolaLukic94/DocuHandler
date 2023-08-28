@@ -1,8 +1,7 @@
 using DocumentTempate.API.Controllers;
-using DocumentTemplate.Application.Common.Interfaces.Authentication;
-using DocumentTemplate.Application.Services.Authentication.Commands;
-using DocumentTemplate.Application.Services.Authentication.Common;
-using DocumentTemplate.Application.Services.Authentication.Query;
+using DocumentTemplate.Application.Authentication.Commands.Register;
+using DocumentTemplate.Application.Authentication.Common;
+using DocumentTemplate.Application.Authentication.Queries.Login;
 using DocumentTemplate.Contracts.Authentication;
 using ErrorOr;
 using MediatR;
@@ -13,28 +12,19 @@ namespace DocumentTemplate.API.Controllers
     [Route("auth")]
     public class AuthenticationController : ApiController
     {
-        private readonly IMediator _mediator;
+        // private readonly IMediator _mediator;
+        private readonly ISender _mediator;
 
         public AuthenticationController(IMediator mediator)
         {
             _mediator = mediator;
         }
 
-        // private readonly IAuthenticationCommandService _authenticationCommandService;
-        // private readonly IAuthenticationQueryService _authenticationQueryService;
-        // public AuthenticationController(
-        //     IAuthenticationCommandService authenticationCommandService,
-        //     IJwtTokenGenerator jwtTokenGenerator,
-        //     IAuthenticationQueryService authenticationQueryService)
-        // {
-        //     _authenticationCommandService = authenticationCommandService;
-        //     _authenticationQueryService = authenticationQueryService;
-        // }
-
         [HttpPost("register")]
-        public IActionResult Register(RegisterRequest request)
+        public async Task<IActionResult> Register(RegisterRequest request)
         {
-            ErrorOr<AuthenticationResult> authResult = _authenticationCommandService.Register(request);
+            var command = new RegisterCommand(request.FirstName, request.LastName, request.Email, request.Password);
+            ErrorOr<AuthenticationResult> authResult = await _mediator.Send(command);
 
             return authResult.Match(
                 authResult => Ok(MapAuthResult(authResult)),
@@ -45,21 +35,19 @@ namespace DocumentTemplate.API.Controllers
         private static AuthenticationResponse MapAuthResult(ErrorOr<AuthenticationResult> authResult)
         {
             return new AuthenticationResponse(
-                authResult.User.Id,
-                authResult.User.FirstName,
-                authResult.User.LastName,
-                authResult.User.Email,
-                authResult.Token
+                authResult.Value.User.Id,
+                authResult.Value.User.FirstName,
+                authResult.Value.User.LastName,
+                authResult.Value.User.Email,
+                authResult.Value.Token
             );
         }
 
         [HttpPost("login")]
-        public IActionResult Login(LoginRequest request)
+        public async Task<IActionResult> Login(LoginRequest request)
         {
-            var authResult = _authenticationQueryService.Login(
-                request.Email,
-                request.Password
-            );
+            var query = new LoginQuery(request.Email, request.Password);
+            ErrorOr<AuthenticationResult> authResult = await _mediator.Send(query);
 
             return authResult.Match(
                 authResult => Ok(MapAuthResult(authResult)),
