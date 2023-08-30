@@ -44,3 +44,10 @@
 /home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.API/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
 /home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.API/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
 /home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.API/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.API/bin/Debug/net7.0/ErrorOr.dll
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.API/bin/Debug/net7.0/Mapster.dll
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.API/bin/Debug/net7.0/Mapster.Core.dll
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.API/bin/Debug/net7.0/Mapster.DependencyInjection.dll
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.API/bin/Debug/net7.0/MediatR.dll
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.API/bin/Debug/net7.0/MediatR.Contracts.dll
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.API/bin/Debug/net7.0/MediatR.Extensions.Microsoft.DependencyInjection.dll

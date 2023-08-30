@@ -9,3 +9,4 @@
 /home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Domain/obj/Debug/net7.0/refint/DocumentTemplate.Domain.dll
 /home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Domain/obj/Debug/net7.0/DocumentTemplate.Domain.pdb
 /home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Domain/obj/Debug/net7.0/ref/DocumentTemplate.Domain.dll
+/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Domain/obj/Debug/net7.0/DocumentTemplate.Domain.csproj.AssemblyReference.cache
