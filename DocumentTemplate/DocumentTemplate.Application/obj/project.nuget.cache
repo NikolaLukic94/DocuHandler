@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "G6ZLxMY6EOjQLjH9Lq6ARKsnjezdCXQFN/MM4AxRvzpww1QFnRGzqfc4k6hH5e+TVyznAErVGotX9D5E1JCAHA==",
+  "dgSpecHash": "WldzE01g8bqlWWZ4h17JekmDdohAoWokiFXuXM1mNj0GLBLILB0rwcYJkru+zUJd5zmdkVQbgT6ZQckshWl8ng==",
   "success": true,
-  "projectFilePath": "/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Application/DocumentTemplate.Application.csproj",
+  "projectFilePath": "\\\\wsl.localhost\\Ubuntu-20.04\\home\\nikola\\docs-mono-repo\\DocumentTemplate\\DocumentTemplate.Application\\DocumentTemplate.Application.csproj",
   "expectedPackageFiles": [
-    "/home/nikola/.nuget/packages/erroror/1.2.1/erroror.1.2.1.nupkg.sha512",
-    "/home/nikola/.nuget/packages/mediatr/12.1.1/mediatr.12.1.1.nupkg.sha512",
-    "/home/nikola/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
-    "/home/nikola/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
-    "/home/nikola/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    "C:\\Users\\Administrator\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
   ],
   "logs": [
     {

@@ -3,23 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentTemplate.Domain", "DocumentTemplate.Domain\DocumentTemplate.Domain.csproj", "{4B3E9932-D71B-4EDC-A2FE-D5F18799CBB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentTemplate.Domain", "DocumentTemplate.Domain\DocumentTemplate.Domain.csproj", "{4B3E9932-D71B-4EDC-A2FE-D5F18799CBB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentTemplate.Infrastructure", "DocumentTemplate.Infrastructure\DocumentTemplate.Infrastructure.csproj", "{CBDD2BB8-04A6-49A8-899A-326E1875EEB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentTemplate.Infrastructure", "DocumentTemplate.Infrastructure\DocumentTemplate.Infrastructure.csproj", "{CBDD2BB8-04A6-49A8-899A-326E1875EEB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentTemplate.Contracts", "DocumentTemplate.Contracts\DocumentTemplate.Contracts.csproj", "{FBF5EA51-F6CE-4597-AF04-AE37D88C4C5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentTemplate.Contracts", "DocumentTemplate.Contracts\DocumentTemplate.Contracts.csproj", "{FBF5EA51-F6CE-4597-AF04-AE37D88C4C5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentTemplate.API", "DocumentTemplate.API\DocumentTemplate.API.csproj", "{A47FC7BD-BB30-4F69-B949-95EBBB66EF09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentTemplate.API", "DocumentTemplate.API\DocumentTemplate.API.csproj", "{A47FC7BD-BB30-4F69-B949-95EBBB66EF09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentTemplate.Application", "DocumentTemplate.Application\DocumentTemplate.Application.csproj", "{E9FADC21-A08D-4181-9CFA-B5DBFE9857BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentTemplate.Application", "DocumentTemplate.Application\DocumentTemplate.Application.csproj", "{E9FADC21-A08D-4181-9CFA-B5DBFE9857BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway", "ApiGateway", "{CCCBAA37-B0A5-47D5-8C02-967E8CF3A615}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "ApiGateway\ApiGateway\ApiGateway.csproj", "{34C70D9F-0EA2-4300-8717-2F16E349C874}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DocumentTemplate", "DocumentTemplate", "{0B928A93-A166-426D-B28B-95FAD3DD7346}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4B3E9932-D71B-4EDC-A2FE-D5F18799CBB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -42,5 +45,23 @@ Global
 		{E9FADC21-A08D-4181-9CFA-B5DBFE9857BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9FADC21-A08D-4181-9CFA-B5DBFE9857BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9FADC21-A08D-4181-9CFA-B5DBFE9857BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34C70D9F-0EA2-4300-8717-2F16E349C874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C70D9F-0EA2-4300-8717-2F16E349C874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C70D9F-0EA2-4300-8717-2F16E349C874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C70D9F-0EA2-4300-8717-2F16E349C874}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B3E9932-D71B-4EDC-A2FE-D5F18799CBB2} = {0B928A93-A166-426D-B28B-95FAD3DD7346}
+		{CBDD2BB8-04A6-49A8-899A-326E1875EEB7} = {0B928A93-A166-426D-B28B-95FAD3DD7346}
+		{FBF5EA51-F6CE-4597-AF04-AE37D88C4C5F} = {0B928A93-A166-426D-B28B-95FAD3DD7346}
+		{A47FC7BD-BB30-4F69-B949-95EBBB66EF09} = {0B928A93-A166-426D-B28B-95FAD3DD7346}
+		{E9FADC21-A08D-4181-9CFA-B5DBFE9857BB} = {0B928A93-A166-426D-B28B-95FAD3DD7346}
+		{34C70D9F-0EA2-4300-8717-2F16E349C874} = {CCCBAA37-B0A5-47D5-8C02-967E8CF3A615}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {734CE24B-4CD0-4F1D-B10E-54ABBE1A5BFA}
 	EndGlobalSection
 EndGlobal

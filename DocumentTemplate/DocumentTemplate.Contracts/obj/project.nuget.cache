@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nqLaKSU7CJcDUNP+RctHJGDj+dIUVUpisqgbgLVWO+7aSE9KNxlBbsHLJEEjxiA2ZkRjASl1i5AfKcnIRu3PSw==",
+  "dgSpecHash": "o7A797MJZGVj3H8OjKSC31uQk5bVnFiavfam8/BUSYN6Jz5FI8Pkv7rtgl+3WGAyxE8ckdSl6GDDWtEw94QBuw==",
   "success": true,
-  "projectFilePath": "/home/nikola/docs-mono-repo/DocumentTemplate/DocumentTemplate.Contracts/DocumentTemplate.Contracts.csproj",
+  "projectFilePath": "\\\\wsl.localhost\\Ubuntu-20.04\\home\\nikola\\docs-mono-repo\\DocumentTemplate\\DocumentTemplate.Contracts\\DocumentTemplate.Contracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
