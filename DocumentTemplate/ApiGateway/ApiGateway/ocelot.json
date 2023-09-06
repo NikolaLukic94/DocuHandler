@@ -1,6 +1,19 @@
 {
-  "Routes": [],
-  "GlobalConfiguration": {
-
-  }
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/auth/login",
+      "UpstreamHttpMethod": [
+        "POST"
+      ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "documenttemplate.api",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/auth/login"
+    }
+  ],
+  "GlobalConfiguration": {}
 }

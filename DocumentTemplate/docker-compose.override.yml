@@ -9,6 +9,8 @@ services:
       - ASPNETCORE_ENVIRONMENT=Development
     ports:
       - "8080:80"
+    depends_on:
+      - documenttemplate.api
 
   documenttemplate.api:
     build:
@@ -16,5 +18,3 @@ services:
       dockerfile: ./DocumentTemplate.API/Dockerfile
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-    ports:
-      - "8081:80"
