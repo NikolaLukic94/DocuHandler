@@ -13,7 +13,6 @@ namespace DocumentTemplate.API.Controllers
     [Route("auth")]
     public class AuthenticationController : ApiController
     {
-        // private readonly IMediator _mediator;
         private readonly ISender _mediator;
         private readonly IMapper _mapper;
 
