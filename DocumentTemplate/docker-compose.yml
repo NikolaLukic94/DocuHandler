@@ -12,3 +12,15 @@ services:
     build:
       context: .
       dockerfile: DocumentTemplate/DocumentTemplate.API/Dockerfile
+
+  documenttemplatemetadata.api:
+    image: ${DOCKER_REGISTRY-}documenttemplatemetadataapi
+    build:
+      context: .
+      dockerfile: ../DocumentTemplateMetadata.API/DocumentTemplateMetadata.API/Dockerfile
+
+  documenttemplatedb:
+    image: postgres
+
+volumes:
+   postgres_data:
